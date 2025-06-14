@@ -13,7 +13,7 @@ setup(
     description="Easy-to-integrate Django notification library with WebSocket support for real-time updates. (under development)",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://gitub.com/rahulsaini5123/django-notify",
+    url="https://github.com/RahulSaini3125/django_notify",
     classifiers=[
         "Framework :: Django",
         "Programming Language :: Python :: 3",
