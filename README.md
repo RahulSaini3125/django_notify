@@ -25,5 +25,5 @@
 ## 📦 Installation
 
 ```bash
-pip install django-notify
+pip install django-notify-framework
 
