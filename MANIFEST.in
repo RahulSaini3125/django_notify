@@ -1,4 +1,4 @@
 include README.md
 include LICENSE
-recursive-include django_notify/templates *
+recursive-include django_notify_framework/templates *
 

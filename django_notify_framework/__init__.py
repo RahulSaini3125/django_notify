@@ -1,1 +1,1 @@
-default_app_config = "django_notify.apps.DjangoNotifyConfig"
+default_app_config = "django_notify_framework.apps.DjangoNotifyConfig"

@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name="django-notify-framework",
-    version="0.0.1",
-    packages=find_packages(),
+    version="0.0.11",
+    packages=find_packages(include=["django_notify_framework", "django_notify_framework.*"]),
     include_package_data=True,
     install_requires=[
         "Django>=3.2",
@@ -13,7 +13,7 @@ setup(
     description="Easy-to-integrate Django notification library with WebSocket support for real-time updates. (under development)",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/RahulSaini3125/django_notify",
+    url="https://github.com/RahulSaini3125/django_notify_framework",
     classifiers=[
         "Framework :: Django",
         "Programming Language :: Python :: 3",
